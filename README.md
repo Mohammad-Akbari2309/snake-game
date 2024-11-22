@@ -1,1 +1,1 @@
-Writing snake game code with JavaAcript
+# Writing snake game code with JavaAcript
