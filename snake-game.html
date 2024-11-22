@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Snake Game</title>
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        <div id="gameControls">
+            <button onclick="setDifficulty('easy')">Easy</button>
+            <button onclick="setDifficulty('normal')">Normal</button>
+            <button onclick="setDifficulty('hard')">Hard</button>
+        </div>
+        <div id="currentLevel">Current Level: Normal</div>
+        <div id="highScore">Highest Score: 0</div>
+        <div id="scoreHistory">
+            <h3>Last 5 Scores</h3>
+            <ul id="scoreList"></ul>
+        </div>
+    </div>
+</body>
+</html>
